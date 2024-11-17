@@ -3,7 +3,8 @@ package textrpg;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		TextRpg game = TextRpg.getInstance();
+		game.run();
 
 	}
 
